@@ -27,6 +27,7 @@ function App() {
 
           if (ev.type === "new_word") setCount(count + 1)
         }} />
+        <h1></h1>
       </div>
     </>
   )
