@@ -11,7 +11,7 @@ type KeyTypeEv = {
   isCorrect: boolean,
   time: number,
 }
-type Ev = NewWordEv | KeyTypeEv
+export type Ev = NewWordEv | KeyTypeEv
 
 type TypingGameProps = {
   words: string[],
